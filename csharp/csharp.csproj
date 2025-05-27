@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>Opal.Client</PackageId>
+    <AssemblyName>Opal.Client</AssemblyName>
+    <Nullable>enable</Nullable>
+    <Authors>Ryan Martin</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/universehq/opal-client</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/universehq/opal-client</RepositoryUrl>
+    <IsPackable>True</IsPackable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <ProjectRoot>..</ProjectRoot>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(ProjectRoot)/README.md" Pack="true" PackagePath=".\" />
+    <None Include="$(ProjectRoot)/LICENSE" Pack="true" PackagePath=".\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Kiota.Bundle" Version="1.17.3" />
+  </ItemGroup>
+
+</Project>

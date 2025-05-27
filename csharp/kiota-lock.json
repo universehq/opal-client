@@ -1,0 +1,34 @@
+{
+  "descriptionHash": "A10C8A7CD539DD87B4D9CB9C12B1AB54F68AF3BEB8BCA5B63972807023033FA04FEDE5D68912721F0333B9D5EE2C47AF3996BFC7D75662CD09585048A415DE0F",
+  "descriptionLocation": "http://localhost:5064/swagger/v0.2/swagger.json",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.25.1",
+  "clientClassName": "OpalClient",
+  "typeAccessModifier": "Public",
+  "clientNamespaceName": "Opal.Client",
+  "language": "CSharp",
+  "usesBackingStore": false,
+  "excludeBackwardCompatible": false,
+  "includeAdditionalData": true,
+  "disableSSLValidation": false,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Multipart.MultipartSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain;q=0.9",
+    "application/x-www-form-urlencoded;q=0.2",
+    "multipart/form-data;q=0.1"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}
