@@ -7,9 +7,13 @@
     <AssemblyName>Opal.Client</AssemblyName>
     <Nullable>enable</Nullable>
     <Authors>Ryan Martin</Authors>
+    <Company>Universe</Company>
+    <language>en-US</language>
+    <Version>1.0.1</Version>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/universehq/opal-client</PackageProjectUrl>
     <RepositoryUrl>https://github.com/universehq/opal-client</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <IsPackable>True</IsPackable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <ProjectRoot>..</ProjectRoot>
@@ -22,6 +26,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Kiota.Bundle" Version="1.17.3" />
+    <PackageReference Include="Opal.Constant" Version="0.0.1" />
   </ItemGroup>
 
 </Project>
